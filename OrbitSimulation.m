@@ -1,4 +1,4 @@
-%%============
+%%============ 
 % This matlab program simulate the part of Journal,
 % "New Approach to Satellite Formation-Keeping: Exact Solution to the Full Nonlinear Problem"
 % by Hancheol Cho and Adam Yu, ASCE/OCTOBER 2009
@@ -57,7 +57,7 @@ Rdot = diff(R_cal, time);
 Rdot0 = subs(Rdot, [nval, ival, ohmval, time], [n, i, ohm, 0]);
 ECIXYZdot0 = inv(R_0) * (xyzdot0 - Rdot0 * ECIXYZ0);
 
-initial_state = double(vpa([ECIXYZ0; ECIXYZdot0], 12)); %소수점 아래 12자리
+initial_state = double(vpa([ECIXYZ0; ECIXYZdot0], 12));
 
 %% Solve
 opts = odeset('RelTol',1e-12,'AbsTol',1e-14);
@@ -107,7 +107,7 @@ z = hill(3, :);
 
 %% plot Force
 period = t./p; 
-figure();
+figure(1);
 subplot(2, 2, 1);
 plot(period, Force(:, 1));
 xlim([0, 3]);
@@ -133,7 +133,7 @@ ylim([0.5e-3, 1.5e-3]);
 grid on;
 
 %% Plot orbit
-figure();
+figure(2);
 subplot(1, 2, 1);
 plot(x./rho, z./rho);hold on;
 plot(x(1)/rho, z(1)/rho, 'o')
