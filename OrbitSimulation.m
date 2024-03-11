@@ -1,5 +1,5 @@
 %%============ 
-% This matlab program simulate the part of Journal,
+% This matlab program simulates the part of Article,
 % "New Approach to Satellite Formation-Keeping: Exact Solution to the Full Nonlinear Problem"
 % by Hancheol Cho and Adam Yu, ASCE/OCTOBER 2009
 % DOI: 10.1061/(ASCE) AS.1943-5525.0000013
