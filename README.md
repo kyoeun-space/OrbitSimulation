@@ -1,3 +1,8 @@
+![Orbit](https://github.com/kyoeun-space/OrbitSimulation/assets/122524815/b10fcbf9-6052-4a9a-a994-4077da067fe7)   
+![Force](https://github.com/kyoeun-space/OrbitSimulation/assets/122524815/ffd2fe88-9caa-4278-a0c2-fe850cdee00f)
+
+
+
 TY  - JOUR  
 T1  - New Approach to Satellite Formation-Keeping: Exact Solution to the Full Nonlinear Problem  
 AU  - Cho Hancheol  
