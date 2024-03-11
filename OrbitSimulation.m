@@ -110,24 +110,32 @@ period = t./p;
 figure(1);
 subplot(2, 2, 1);
 plot(period, Force(:, 1));
+xlabel('period');
+ylabel('Force of X-direction');
 xlim([0, 3]);
 ylim([-1e-3, 1e-3]);
 grid on;
 
 subplot(2,2,2);
 plot(period, Force(:,2));
+xlabel('period');
+ylabel('Force of Y-direction');
 xlim([0, 3]);
 ylim([-5e-4, 15e-4]);
 grid on;
 
 subplot(2,2,3);
 plot(period, Force(:,3));
+xlabel('period');
+ylabel('Force of Z-direction');
 xlim([0, 3]);
 ylim([-1e-3, 1e-3]);
 grid on;
 
 subplot(2,2,4);
 plot(period, mag_Force);
+xlabel('period');
+ylabel('Magnitude of Force');
 xlim([0, 3]);
 ylim([0.5e-3, 1.5e-3]);
 grid on;
